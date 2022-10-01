@@ -1,0 +1,43 @@
+.logo{
+    margin: auto;
+}
+.nav-link a{
+    color: azure;
+}
+.bg-image{
+    background-image: url(./images/bg-cover.jpg);
+    background-size:cover;
+    background-position: bottom;
+    position:relative;
+    min-height: 60vh;
+}
+.lead{
+    font-size: 40px;
+    color: whitesmoke;
+}
+.display-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+#nav-log{
+    position: right;
+}
+.col-md-3{
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.col-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.row{
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.bg{
+    background-color: black;
+}
